@@ -5,7 +5,8 @@
     "name": "Airi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/96/Airi.png/40px-Airi.png",
     "age": "15",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/80/Airi_Title.ogg"
   },
   {
     "link": "/wiki/Akane",
@@ -13,7 +14,8 @@
     "name": "Akane",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/aa/Akane.png/40px-Akane.png",
     "age": "16",
-    "height": "164cm"
+    "height": "164cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c9/Akane_Title.ogg"
   },
   {
     "link": "/wiki/Akane_(Bunny_Girl)",
@@ -21,7 +23,8 @@
     "name": "Akane (Bunny Girl)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/99/Akane_%28Bunny_Girl%29.png/40px-Akane_%28Bunny_Girl%29.png",
     "age": "16",
-    "height": "164cm"
+    "height": "164cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d8/Akane_%28Bunny_Girl%29_Title.ogg"
   },
   {
     "link": "/wiki/Akari",
@@ -29,7 +32,8 @@
     "name": "Akari",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/7d/Akari.png/40px-Akari.png",
     "age": "17",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/1f/Akari_Title.ogg"
   },
   {
     "link": "/wiki/Ako",
@@ -37,7 +41,8 @@
     "name": "Ako",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/72/Ako.png/40px-Ako.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/aa/Ako_Title.ogg"
   },
   {
     "link": "/wiki/Ako_(Dress)",
@@ -45,7 +50,8 @@
     "name": "Ako (Dress)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/fc/Ako_%28Dress%29.png/40px-Ako_%28Dress%29.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/eb/Ako_%28Dress%29_Title.ogg"
   },
   {
     "link": "/wiki/Arisu",
@@ -53,7 +59,8 @@
     "name": "Arisu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/0f/Arisu.png/40px-Arisu.png",
     "age": "??",
-    "height": "152cm"
+    "height": "152cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/2c/Arisu_Title.ogg"
   },
   {
     "link": "/wiki/Arisu_(Maid)",
@@ -61,7 +68,8 @@
     "name": "Arisu (Maid)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b4/Arisu_%28Maid%29.png/40px-Arisu_%28Maid%29.png",
     "age": "??",
-    "height": "152cm"
+    "height": "152cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/71/Arisu_%28Maid%29_Title.ogg"
   },
   {
     "link": "/wiki/Aru",
@@ -69,7 +77,8 @@
     "name": "Aru",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/db/Aru.png/40px-Aru.png",
     "age": "16",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/7a/Aru_Title.ogg"
   },
   {
     "link": "/wiki/Aru_(New_Year)",
@@ -77,7 +86,8 @@
     "name": "Aru (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/60/Aru_%28New_Year%29.png/40px-Aru_%28New_Year%29.png",
     "age": "16",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cd/Aru_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Asuna",
@@ -85,7 +95,8 @@
     "name": "Asuna",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/9f/Asuna.png/40px-Asuna.png",
     "age": "17",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c7/Asuna_Title.ogg"
   },
   {
     "link": "/wiki/Asuna_(Bunny_Girl)",
@@ -93,7 +104,8 @@
     "name": "Asuna (Bunny Girl)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a4/Asuna_%28Bunny_Girl%29.png/40px-Asuna_%28Bunny_Girl%29.png",
     "age": "17",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/2c/Asuna_%28Bunny_Girl%29_Title.ogg"
   },
   {
     "link": "/wiki/Atsuko",
@@ -101,7 +113,8 @@
     "name": "Atsuko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c7/Atsuko.png/40px-Atsuko.png",
     "age": "15",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f2/Atsuko_Title.ogg"
   },
   {
     "link": "/wiki/Ayane",
@@ -109,7 +122,8 @@
     "name": "Ayane",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a7/Ayane.png/40px-Ayane.png",
     "age": "15",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/4f/Ayane_Title.ogg"
   },
   {
     "link": "/wiki/Ayane_(Swimsuit)",
@@ -117,7 +131,8 @@
     "name": "Ayane (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f6/Ayane_%28Swimsuit%29.png/40px-Ayane_%28Swimsuit%29.png",
     "age": "15",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/30/Ayane_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Azusa",
@@ -125,7 +140,8 @@
     "name": "Azusa",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/86/Azusa.png/40px-Azusa.png",
     "age": "16",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/de/Azusa_Title.ogg"
   },
   {
     "link": "/wiki/Azusa_(Swimsuit)",
@@ -133,7 +149,8 @@
     "name": "Azusa (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a4/Azusa_%28Swimsuit%29.png/40px-Azusa_%28Swimsuit%29.png",
     "age": "16",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/fc/Azusa_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Cherino",
@@ -141,7 +158,8 @@
     "name": "Cherino",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/7c/Cherino.png/40px-Cherino.png",
     "age": "??",
-    "height": "128cm"
+    "height": "128cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/87/Cherino_Title.ogg"
   },
   {
     "link": "/wiki/Cherino_(Hot_Spring)",
@@ -149,7 +167,8 @@
     "name": "Cherino (Hot Spring)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/95/Cherino_%28Hot_Spring%29.png/40px-Cherino_%28Hot_Spring%29.png",
     "age": "??",
-    "height": "128cm"
+    "height": "128cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/36/Cherino_%28Hot_Spring%29_Title.ogg"
   },
   {
     "link": "/wiki/Chihiro",
@@ -157,7 +176,8 @@
     "name": "Chihiro",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a7/Chihiro.png/40px-Chihiro.png",
     "age": "17",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/9a/Chihiro_Title.ogg"
   },
   {
     "link": "/wiki/Chinatsu",
@@ -165,7 +185,8 @@
     "name": "Chinatsu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b6/Chinatsu.png/40px-Chinatsu.png",
     "age": "15",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/91/Chinatsu_Title.ogg"
   },
   {
     "link": "/wiki/Chinatsu_(Hot_Spring)",
@@ -173,7 +194,8 @@
     "name": "Chinatsu (Hot Spring)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b1/Chinatsu_%28Hot_Spring%29.png/40px-Chinatsu_%28Hot_Spring%29.png",
     "age": "15",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/76/Chinatsu_%28Hot_Spring%29_Title.ogg"
   },
   {
     "link": "/wiki/Chise",
@@ -181,7 +203,8 @@
     "name": "Chise",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d0/Chise.png/40px-Chise.png",
     "age": "16",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/62/Chise_Title.ogg"
   },
   {
     "link": "/wiki/Chise_(Swimsuit)",
@@ -189,7 +212,8 @@
     "name": "Chise (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/1e/Chise_%28Swimsuit%29.png/40px-Chise_%28Swimsuit%29.png",
     "age": "16",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/40/Chise_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Eimi",
@@ -197,7 +221,8 @@
     "name": "Eimi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/ed/Eimi.png/40px-Eimi.png",
     "age": "15",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/77/Eimi_Title.ogg"
   },
   {
     "link": "/wiki/Eimi_(Swimsuit)",
@@ -205,7 +230,8 @@
     "name": "Eimi (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/ce/Eimi_%28Swimsuit%29.png/40px-Eimi_%28Swimsuit%29.png",
     "age": "15",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cb/Eimi_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Fubuki",
@@ -213,7 +239,8 @@
     "name": "Fubuki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/cd/Fubuki.png/40px-Fubuki.png",
     "age": "15",
-    "height": "148cm"
+    "height": "148cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/57/Fubuki_Title.ogg"
   },
   {
     "link": "/wiki/Fuuka",
@@ -221,7 +248,8 @@
     "name": "Fuuka",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/1f/Fuuka.png/40px-Fuuka.png",
     "age": "16",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e6/Fuuka_Title.ogg"
   },
   {
     "link": "/wiki/Fuuka_(New_Year)",
@@ -229,7 +257,8 @@
     "name": "Fuuka (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/13/Fuuka_%28New_Year%29.png/40px-Fuuka_%28New_Year%29.png",
     "age": "16",
-    "height": "159cm"
+    "height": "159cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a9/Fuuka_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Hanae",
@@ -237,7 +266,8 @@
     "name": "Hanae",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/72/Hanae.png/40px-Hanae.png",
     "age": "15",
-    "height": "150cm"
+    "height": "150cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/fc/Hanae_Title.ogg"
   },
   {
     "link": "/wiki/Hanae_(Christmas)",
@@ -245,7 +275,8 @@
     "name": "Hanae (Christmas)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/1a/Hanae_%28Christmas%29.png/40px-Hanae_%28Christmas%29.png",
     "age": "15",
-    "height": "150cm"
+    "height": "150cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/75/Hanae_%28Christmas%29_Title.ogg"
   },
   {
     "link": "/wiki/Hanako",
@@ -253,7 +284,8 @@
     "name": "Hanako",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/9c/Hanako.png/40px-Hanako.png",
     "age": "16",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/84/Hanako_Title.ogg"
   },
   {
     "link": "/wiki/Hanako_(Swimsuit)",
@@ -261,7 +293,8 @@
     "name": "Hanako (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c5/Hanako_%28Swimsuit%29.png/40px-Hanako_%28Swimsuit%29.png",
     "age": "16",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/5d/Hanako_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Hare",
@@ -269,7 +302,8 @@
     "name": "Hare",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/47/Hare.png/40px-Hare.png",
     "age": "16",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d3/Hare_Title.ogg"
   },
   {
     "link": "/wiki/Hare_(Camping)",
@@ -277,7 +311,8 @@
     "name": "Hare (Camping)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a2/Hare_%28Camping%29.png/40px-Hare_%28Camping%29.png",
     "age": "16",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/62/Hare_%28Camping%29_Title.ogg"
   },
   {
     "link": "/wiki/Haruka",
@@ -285,7 +320,8 @@
     "name": "Haruka",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b1/Haruka.png/40px-Haruka.png",
     "age": "15",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/29/Haruka_Title.ogg"
   },
   {
     "link": "/wiki/Haruka_(New_Year)",
@@ -293,7 +329,8 @@
     "name": "Haruka (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d9/Haruka_%28New_Year%29.png/40px-Haruka_%28New_Year%29.png",
     "age": "15",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a8/Haruka_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Haruna",
@@ -301,7 +338,8 @@
     "name": "Haruna",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a6/Haruna.png/40px-Haruna.png",
     "age": "17",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/16/Haruna_Title.ogg"
   },
   {
     "link": "/wiki/Haruna_(New_Year)",
@@ -309,7 +347,8 @@
     "name": "Haruna (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b3/Haruna_%28New_Year%29.png/40px-Haruna_%28New_Year%29.png",
     "age": "17",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/2f/Haruna_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Haruna_(Sportswear)",
@@ -317,7 +356,8 @@
     "name": "Haruna (Sportswear)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/af/Haruna_%28Sportswear%29.png/40px-Haruna_%28Sportswear%29.png",
     "age": "17",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c9/Haruna_%28Sportswear%29_Title.ogg"
   },
   {
     "link": "/wiki/Hasumi",
@@ -325,7 +365,8 @@
     "name": "Hasumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/84/Hasumi.png/40px-Hasumi.png",
     "age": "17",
-    "height": "179cm"
+    "height": "179cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e0/Hasumi_Title.ogg"
   },
   {
     "link": "/wiki/Hasumi_(Sportswear)",
@@ -333,7 +374,8 @@
     "name": "Hasumi (Sportswear)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/80/Hasumi_%28Sportswear%29.png/40px-Hasumi_%28Sportswear%29.png",
     "age": "17",
-    "height": "179cm"
+    "height": "179cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/22/Hasumi_%28Sportswear%29_Title.ogg"
   },
   {
     "link": "/wiki/Hatsune_Miku",
@@ -341,7 +383,8 @@
     "name": "Hatsune Miku",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/93/Hatsune_Miku.png/40px-Hatsune_Miku.png",
     "age": "16",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/92/Hatsune_Miku_Title.ogg"
   },
   {
     "link": "/wiki/Hibiki",
@@ -349,7 +392,8 @@
     "name": "Hibiki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/bc/Hibiki.png/40px-Hibiki.png",
     "age": "15",
-    "height": "154cm"
+    "height": "154cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/11/Hibiki_Title.ogg"
   },
   {
     "link": "/wiki/Hibiki_(Cheerleader)",
@@ -357,7 +401,8 @@
     "name": "Hibiki (Cheerleader)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/bf/Hibiki_%28Cheerleader%29.png/40px-Hibiki_%28Cheerleader%29.png",
     "age": "15",
-    "height": "154cm"
+    "height": "154cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d9/Hibiki_%28Cheerleader%29_Title.ogg"
   },
   {
     "link": "/wiki/Hifumi",
@@ -365,7 +410,8 @@
     "name": "Hifumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/3b/Hifumi.png/40px-Hifumi.png",
     "age": "16",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a1/Hifumi_Title.ogg"
   },
   {
     "link": "/wiki/Hifumi_(Swimsuit)",
@@ -373,7 +419,8 @@
     "name": "Hifumi (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/32/Hifumi_%28Swimsuit%29.png/40px-Hifumi_%28Swimsuit%29.png",
     "age": "16",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f2/Hifumi_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Himari",
@@ -381,7 +428,8 @@
     "name": "Himari",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/5a/Himari.png/40px-Himari.png",
     "age": "17",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/b3/Himari_Title.ogg"
   },
   {
     "link": "/wiki/Hina",
@@ -389,7 +437,8 @@
     "name": "Hina",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/83/Hina.png/40px-Hina.png",
     "age": "17",
-    "height": "142cm"
+    "height": "142cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/ad/Hina_Title.ogg"
   },
   {
     "link": "/wiki/Hina_(Dress)",
@@ -397,7 +446,8 @@
     "name": "Hina (Dress)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/20/Hina_%28Dress%29.png/40px-Hina_%28Dress%29.png",
     "age": "17",
-    "height": "142cm"
+    "height": "142cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/eb/Hina_%28Dress%29_Title.ogg"
   },
   {
     "link": "/wiki/Hina_(Swimsuit)",
@@ -405,7 +455,8 @@
     "name": "Hina (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/44/Hina_%28Swimsuit%29.png/40px-Hina_%28Swimsuit%29.png",
     "age": "17",
-    "height": "142cm"
+    "height": "142cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/6d/Hina_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Hinata",
@@ -413,7 +464,8 @@
     "name": "Hinata",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/97/Hinata.png/40px-Hinata.png",
     "age": "17",
-    "height": "166cm"
+    "height": "166cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e6/Hinata_Title.ogg"
   },
   {
     "link": "/wiki/Hinata_(Swimsuit)",
@@ -421,7 +473,8 @@
     "name": "Hinata (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/08/Hinata_%28Swimsuit%29.png/40px-Hinata_%28Swimsuit%29.png",
     "age": "17",
-    "height": "166cm"
+    "height": "166cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/af/Hinata_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Hiyori",
@@ -429,7 +482,8 @@
     "name": "Hiyori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/76/Hiyori.png/40px-Hiyori.png",
     "age": "16",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f2/Hiyori_Title.ogg"
   },
   {
     "link": "/wiki/Hoshino",
@@ -437,7 +491,8 @@
     "name": "Hoshino",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a9/Hoshino.png/40px-Hoshino.png",
     "age": "17",
-    "height": "145cm"
+    "height": "145cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/61/Hoshino_Title.ogg"
   },
   {
     "link": "/wiki/Hoshino_(Swimsuit)",
@@ -445,7 +500,8 @@
     "name": "Hoshino (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c2/Hoshino_%28Swimsuit%29.png/40px-Hoshino_%28Swimsuit%29.png",
     "age": "17",
-    "height": "145cm"
+    "height": "145cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/4b/Hoshino_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Ibuki",
@@ -453,7 +509,8 @@
     "name": "Ibuki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/75/Ibuki.png/40px-Ibuki.png",
     "age": "11",
-    "height": "128cm"
+    "height": "128cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/0a/Ibuki_Title.ogg"
   },
   {
     "link": "/wiki/Ichika",
@@ -461,7 +518,8 @@
     "name": "Ichika",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b3/Ichika.png/40px-Ichika.png",
     "age": "16",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/2f/Ichika_Title.ogg"
   },
   {
     "link": "/wiki/Iori",
@@ -469,7 +527,8 @@
     "name": "Iori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/26/Iori.png/40px-Iori.png",
     "age": "16",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/24/Iori_Title.ogg"
   },
   {
     "link": "/wiki/Iori_(Swimsuit)",
@@ -477,7 +536,8 @@
     "name": "Iori (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/53/Iori_%28Swimsuit%29.png/40px-Iori_%28Swimsuit%29.png",
     "age": "16",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/b3/Iori_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Iroha",
@@ -485,7 +545,8 @@
     "name": "Iroha",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/bf/Iroha.png/40px-Iroha.png",
     "age": "16",
-    "height": "151cm"
+    "height": "151cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/63/Iroha_Title.ogg"
   },
   {
     "link": "/wiki/Izumi",
@@ -493,7 +554,8 @@
     "name": "Izumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/10/Izumi.png/40px-Izumi.png",
     "age": "16",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/36/Izumi_Title.ogg"
   },
   {
     "link": "/wiki/Izumi_(Swimsuit)",
@@ -501,7 +563,8 @@
     "name": "Izumi (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b0/Izumi_%28Swimsuit%29.png/40px-Izumi_%28Swimsuit%29.png",
     "age": "16",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/ab/Izumi_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Izuna",
@@ -509,7 +572,8 @@
     "name": "Izuna",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/54/Izuna.png/40px-Izuna.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/0d/Izuna_Title.ogg"
   },
   {
     "link": "/wiki/Izuna_(Swimsuit)",
@@ -517,7 +581,8 @@
     "name": "Izuna (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/37/Izuna_%28Swimsuit%29.png/40px-Izuna_%28Swimsuit%29.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/37/Izuna_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Junko",
@@ -525,7 +590,8 @@
     "name": "Junko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/3c/Junko.png/40px-Junko.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/9b/Junko_Title.ogg"
   },
   {
     "link": "/wiki/Junko_(New_Year)",
@@ -533,7 +599,8 @@
     "name": "Junko (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d0/Junko_%28New_Year%29.png/40px-Junko_%28New_Year%29.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a0/Junko_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Juri",
@@ -541,7 +608,8 @@
     "name": "Juri",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/37/Juri.png/40px-Juri.png",
     "age": "15",
-    "height": "170cm"
+    "height": "170cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/34/Juri_Title.ogg"
   },
   {
     "link": "/wiki/Kaede",
@@ -549,7 +617,8 @@
     "name": "Kaede",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f0/Kaede.png/40px-Kaede.png",
     "age": "15",
-    "height": "142cm"
+    "height": "142cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/3c/Kaede_Title.ogg"
   },
   {
     "link": "/wiki/Kaho",
@@ -557,7 +626,8 @@
     "name": "Kaho",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/63/Kaho.png/40px-Kaho.png",
     "age": "17",
-    "height": "173cm"
+    "height": "173cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/31/Kaho_Title.ogg"
   },
   {
     "link": "/wiki/Kanna",
@@ -565,7 +635,8 @@
     "name": "Kanna",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/47/Kanna.png/40px-Kanna.png",
     "age": "17",
-    "height": "166cm"
+    "height": "166cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f1/Kanna_Title.ogg"
   },
   {
     "link": "/wiki/Karin",
@@ -573,7 +644,8 @@
     "name": "Karin",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/50/Karin.png/40px-Karin.png",
     "age": "16",
-    "height": "170cm"
+    "height": "170cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f4/Karin_Title.ogg"
   },
   {
     "link": "/wiki/Karin_(Bunny_Girl)",
@@ -581,7 +653,8 @@
     "name": "Karin (Bunny Girl)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/bd/Karin_%28Bunny_Girl%29.png/40px-Karin_%28Bunny_Girl%29.png",
     "age": "16",
-    "height": "170cm"
+    "height": "170cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a5/Karin_%28Bunny_Girl%29_Title.ogg"
   },
   {
     "link": "/wiki/Kasumi",
@@ -589,7 +662,8 @@
     "name": "Kasumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/6b/Kasumi.png/40px-Kasumi.png",
     "age": "16",
-    "height": "148cm"
+    "height": "148cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/5d/Kasumi_Title.ogg"
   },
   {
     "link": "/wiki/Kayoko",
@@ -597,7 +671,8 @@
     "name": "Kayoko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a5/Kayoko.png/40px-Kayoko.png",
     "age": "18",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d6/Kayoko_Title.ogg"
   },
   {
     "link": "/wiki/Kayoko_(New_Year)",
@@ -605,7 +680,8 @@
     "name": "Kayoko (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/0d/Kayoko_%28New_Year%29.png/40px-Kayoko_%28New_Year%29.png",
     "age": "18",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/40/Kayoko_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Kazusa",
@@ -613,7 +689,8 @@
     "name": "Kazusa",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b3/Kazusa.png/40px-Kazusa.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c6/Kazusa_Title.ogg"
   },
   {
     "link": "/wiki/Kikyou",
@@ -621,7 +698,8 @@
     "name": "Kikyou",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/62/Kikyou.png/40px-Kikyou.png",
     "age": "16",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/9c/Kikyou_Title.ogg"
   },
   {
     "link": "/wiki/Kirino",
@@ -629,7 +707,8 @@
     "name": "Kirino",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/85/Kirino.png/40px-Kirino.png",
     "age": "15",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/08/Kirino_Title.ogg"
   },
   {
     "link": "/wiki/Koharu",
@@ -637,7 +716,8 @@
     "name": "Koharu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c3/Koharu.png/40px-Koharu.png",
     "age": "15",
-    "height": "148cm"
+    "height": "148cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d7/Koharu_Title.ogg"
   },
   {
     "link": "/wiki/Koharu_(Swimsuit)",
@@ -645,7 +725,8 @@
     "name": "Koharu (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/df/Koharu_%28Swimsuit%29.png/40px-Koharu_%28Swimsuit%29.png",
     "age": "15",
-    "height": "148cm"
+    "height": "148cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/7c/Koharu_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Kokona",
@@ -653,7 +734,8 @@
     "name": "Kokona",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/83/Kokona.png/40px-Kokona.png",
     "age": "11",
-    "height": "139cm"
+    "height": "139cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/75/Kokona_Title.ogg"
   },
   {
     "link": "/wiki/Kotama",
@@ -661,7 +743,8 @@
     "name": "Kotama",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/94/Kotama.png/40px-Kotama.png",
     "age": "17",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/bd/Kotama_Title.ogg"
   },
   {
     "link": "/wiki/Kotama_(Camping)",
@@ -669,7 +752,8 @@
     "name": "Kotama (Camping)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/19/Kotama_%28Camping%29.png/40px-Kotama_%28Camping%29.png",
     "age": "17",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a1/Kotama_%28Camping%29_Title.ogg"
   },
   {
     "link": "/wiki/Kotori",
@@ -677,7 +761,8 @@
     "name": "Kotori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/ab/Kotori.png/40px-Kotori.png",
     "age": "15",
-    "height": "151cm"
+    "height": "151cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d8/Kotori_Title.ogg"
   },
   {
     "link": "/wiki/Kotori_(Cheerleader)",
@@ -685,7 +770,8 @@
     "name": "Kotori (Cheerleader)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/89/Kotori_%28Cheerleader%29.png/40px-Kotori_%28Cheerleader%29.png",
     "age": "15",
-    "height": "151cm"
+    "height": "151cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/51/Kotori_%28Cheerleader%29_Title.ogg"
   },
   {
     "link": "/wiki/Koyuki",
@@ -693,7 +779,8 @@
     "name": "Koyuki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/af/Koyuki.png/40px-Koyuki.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/bd/Koyuki_Title.ogg"
   },
   {
     "link": "/wiki/Maki",
@@ -701,7 +788,8 @@
     "name": "Maki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/21/Maki.png/40px-Maki.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/69/Maki_Title.ogg"
   },
   {
     "link": "/wiki/Makoto",
@@ -709,7 +797,8 @@
     "name": "Makoto",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/20/Makoto.png/40px-Makoto.png",
     "age": "18",
-    "height": "169cm"
+    "height": "169cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/83/Makoto_Title.ogg"
   },
   {
     "link": "/wiki/Mari",
@@ -717,7 +806,8 @@
     "name": "Mari",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/4f/Mari.png/40px-Mari.png",
     "age": "15",
-    "height": "151cm"
+    "height": "151cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c2/Mari_Title.ogg"
   },
   {
     "link": "/wiki/Mari_(Sportswear)",
@@ -725,7 +815,8 @@
     "name": "Mari (Sportswear)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/88/Mari_%28Sportswear%29.png/40px-Mari_%28Sportswear%29.png",
     "age": "15",
-    "height": "151cm"
+    "height": "151cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f8/Mari_%28Sportswear%29_Title.ogg"
   },
   {
     "link": "/wiki/Marina",
@@ -733,7 +824,8 @@
     "name": "Marina",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/9d/Marina.png/40px-Marina.png",
     "age": "16",
-    "height": "166cm"
+    "height": "166cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/36/Marina_Title.ogg"
   },
   {
     "link": "/wiki/Mashiro",
@@ -741,7 +833,8 @@
     "name": "Mashiro",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/06/Mashiro.png/40px-Mashiro.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/42/Mashiro_Title.ogg"
   },
   {
     "link": "/wiki/Mashiro_(Swimsuit)",
@@ -749,7 +842,8 @@
     "name": "Mashiro (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/20/Mashiro_%28Swimsuit%29.png/40px-Mashiro_%28Swimsuit%29.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/df/Mashiro_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Megu",
@@ -757,7 +851,8 @@
     "name": "Megu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d4/Megu.png/40px-Megu.png",
     "age": "17",
-    "height": "164cm"
+    "height": "164cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/2a/Megu_Title.ogg"
   },
   {
     "link": "/wiki/Meru",
@@ -765,7 +860,8 @@
     "name": "Meru",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/4f/Meru.png/40px-Meru.png",
     "age": "16",
-    "height": "137cm"
+    "height": "137cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/93/Meru_Title.ogg"
   },
   {
     "link": "/wiki/Michiru",
@@ -773,7 +869,8 @@
     "name": "Michiru",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e6/Michiru.png/40px-Michiru.png",
     "age": "17",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/0f/Michiru_Title.ogg"
   },
   {
     "link": "/wiki/Midori",
@@ -781,7 +878,8 @@
     "name": "Midori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/ee/Midori.png/40px-Midori.png",
     "age": "15",
-    "height": "143cm"
+    "height": "143cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/7a/Midori_Title.ogg"
   },
   {
     "link": "/wiki/Mika",
@@ -789,7 +887,8 @@
     "name": "Mika",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c8/Mika.png/40px-Mika.png",
     "age": "17",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/5d/Mika_Title.ogg"
   },
   {
     "link": "/wiki/Mimori",
@@ -797,7 +896,8 @@
     "name": "Mimori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/82/Mimori.png/40px-Mimori.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/68/Mimori_Title.ogg"
   },
   {
     "link": "/wiki/Mimori_(Swimsuit)",
@@ -805,7 +905,8 @@
     "name": "Mimori (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/22/Mimori_%28Swimsuit%29.png/40px-Mimori_%28Swimsuit%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e4/Mimori_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Mina",
@@ -813,7 +914,8 @@
     "name": "Mina",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/6b/Mina.png/40px-Mina.png",
     "age": "16",
-    "height": "166cm"
+    "height": "166cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/23/Mina_Title.ogg"
   },
   {
     "link": "/wiki/Mine",
@@ -821,7 +923,8 @@
     "name": "Mine",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a0/Mine.png/40px-Mine.png",
     "age": "17",
-    "height": "168cm"
+    "height": "168cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/b5/Mine_Title.ogg"
   },
   {
     "link": "/wiki/Minori",
@@ -829,7 +932,8 @@
     "name": "Minori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/1a/Minori.png/40px-Minori.png",
     "age": "17",
-    "height": "158cm"
+    "height": "158cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/95/Minori_Title.ogg"
   },
   {
     "link": "/wiki/Misaka_Mikoto",
@@ -837,7 +941,8 @@
     "name": "Misaka Mikoto",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/76/Misaka_Mikoto.png/40px-Misaka_Mikoto.png",
     "age": "14",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/28/Misaka_Mikoto_Title.ogg"
   },
   {
     "link": "/wiki/Misaki",
@@ -845,7 +950,8 @@
     "name": "Misaki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/ae/Misaki.png/40px-Misaki.png",
     "age": "16",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/93/Misaki_Title.ogg"
   },
   {
     "link": "/wiki/Miyako",
@@ -853,7 +959,8 @@
     "name": "Miyako",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/3e/Miyako.png/40px-Miyako.png",
     "age": "15",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d4/Miyako_Title.ogg"
   },
   {
     "link": "/wiki/Miyako_(Swimsuit)",
@@ -861,7 +968,8 @@
     "name": "Miyako (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/97/Miyako_%28Swimsuit%29.png/40px-Miyako_%28Swimsuit%29.png",
     "age": "15",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/f4/Miyako_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Miyu",
@@ -869,7 +977,8 @@
     "name": "Miyu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/ac/Miyu.png/40px-Miyu.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cc/Miyu_Title.ogg"
   },
   {
     "link": "/wiki/Miyu_(Swimsuit)",
@@ -877,7 +986,8 @@
     "name": "Miyu (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d1/Miyu_%28Swimsuit%29.png/40px-Miyu_%28Swimsuit%29.png",
     "age": "15",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e3/Miyu_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Moe",
@@ -885,7 +995,8 @@
     "name": "Moe",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/cc/Moe.png/40px-Moe.png",
     "age": "15",
-    "height": "163cm"
+    "height": "163cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/c3/Moe_Title.ogg"
   },
   {
     "link": "/wiki/Momiji",
@@ -893,7 +1004,8 @@
     "name": "Momiji",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/53/Momiji.png/40px-Momiji.png",
     "age": "15",
-    "height": "135cm"
+    "height": "135cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/25/Momiji_Title.ogg"
   },
   {
     "link": "/wiki/Momoi",
@@ -901,7 +1013,8 @@
     "name": "Momoi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/18/Momoi.png/40px-Momoi.png",
     "age": "15",
-    "height": "143cm"
+    "height": "143cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d4/Momoi_Title.ogg"
   },
   {
     "link": "/wiki/Mutsuki",
@@ -909,7 +1022,8 @@
     "name": "Mutsuki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/0b/Mutsuki.png/40px-Mutsuki.png",
     "age": "16",
-    "height": "144cm"
+    "height": "144cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/30/Mutsuki_Title.ogg"
   },
   {
     "link": "/wiki/Mutsuki_(New_Year)",
@@ -917,7 +1031,8 @@
     "name": "Mutsuki (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c2/Mutsuki_%28New_Year%29.png/40px-Mutsuki_%28New_Year%29.png",
     "age": "16",
-    "height": "144cm"
+    "height": "144cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/77/Mutsuki_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Nagisa",
@@ -925,7 +1040,8 @@
     "name": "Nagisa",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/6a/Nagisa.png/40px-Nagisa.png",
     "age": "17",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/03/Nagisa_Title.ogg"
   },
   {
     "link": "/wiki/Natsu",
@@ -933,7 +1049,8 @@
     "name": "Natsu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/90/Natsu.png/40px-Natsu.png",
     "age": "15",
-    "height": "152cm"
+    "height": "152cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/6f/Natsu_Title.ogg"
   },
   {
     "link": "/wiki/Neru",
@@ -941,7 +1058,8 @@
     "name": "Neru",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/24/Neru.png/40px-Neru.png",
     "age": "17",
-    "height": "146cm"
+    "height": "146cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e4/Neru_Title.ogg"
   },
   {
     "link": "/wiki/Neru_(Bunny_Girl)",
@@ -949,7 +1067,8 @@
     "name": "Neru (Bunny Girl)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/78/Neru_%28Bunny_Girl%29.png/40px-Neru_%28Bunny_Girl%29.png",
     "age": "17",
-    "height": "146cm"
+    "height": "146cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/95/Neru_%28Bunny_Girl%29_Title.ogg"
   },
   {
     "link": "/wiki/Noa",
@@ -957,7 +1076,8 @@
     "name": "Noa",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/23/Noa.png/40px-Noa.png",
     "age": "16",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/40/Noa_Title.ogg"
   },
   {
     "link": "/wiki/Nodoka",
@@ -965,7 +1085,8 @@
     "name": "Nodoka",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e1/Nodoka.png/40px-Nodoka.png",
     "age": "16",
-    "height": "147cm"
+    "height": "147cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e5/Nodoka_Title.ogg"
   },
   {
     "link": "/wiki/Nodoka_(Hot_Spring)",
@@ -973,7 +1094,8 @@
     "name": "Nodoka (Hot Spring)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/3f/Nodoka_%28Hot_Spring%29.png/40px-Nodoka_%28Hot_Spring%29.png",
     "age": "16",
-    "height": "147cm"
+    "height": "147cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/9a/Nodoka_%28Hot_Spring%29_Title.ogg"
   },
   {
     "link": "/wiki/Nonomi",
@@ -981,7 +1103,8 @@
     "name": "Nonomi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/ad/Nonomi.png/40px-Nonomi.png",
     "age": "16",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/8e/Nonomi_Title.ogg"
   },
   {
     "link": "/wiki/Nonomi_(Swimsuit)",
@@ -989,7 +1112,8 @@
     "name": "Nonomi (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/98/Nonomi_%28Swimsuit%29.png/40px-Nonomi_%28Swimsuit%29.png",
     "age": "16",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/67/Nonomi_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Pina",
@@ -997,7 +1121,8 @@
     "name": "Pina",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/9/96/Pina.png/40px-Pina.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a8/Pina_Title.ogg"
   },
   {
     "link": "/wiki/Reisa",
@@ -1005,7 +1130,8 @@
     "name": "Reisa",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/34/Reisa.png/40px-Reisa.png",
     "age": "15",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/92/Reisa_Title.ogg"
   },
   {
     "link": "/wiki/Renge",
@@ -1013,7 +1139,8 @@
     "name": "Renge",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e4/Renge.png/40px-Renge.png",
     "age": "16",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/76/Renge_Title.ogg"
   },
   {
     "link": "/wiki/Rumi",
@@ -1021,7 +1148,8 @@
     "name": "Rumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/7d/Rumi.png/40px-Rumi.png",
     "age": "17",
-    "height": "168cm"
+    "height": "168cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/26/Rumi_Title.ogg"
   },
   {
     "link": "/wiki/Saki",
@@ -1029,7 +1157,8 @@
     "name": "Saki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d0/Saki.png/40px-Saki.png",
     "age": "15",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/e0/Saki_Title.ogg"
   },
   {
     "link": "/wiki/Saki_(Swimsuit)",
@@ -1037,7 +1166,8 @@
     "name": "Saki (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/13/Saki_%28Swimsuit%29.png/40px-Saki_%28Swimsuit%29.png",
     "age": "15",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d9/Saki_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Sakurako",
@@ -1045,7 +1175,8 @@
     "name": "Sakurako",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f0/Sakurako.png/40px-Sakurako.png",
     "age": "17",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/30/Sakurako_Title.ogg"
   },
   {
     "link": "/wiki/Saori",
@@ -1053,7 +1184,8 @@
     "name": "Saori",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/46/Saori.png/40px-Saori.png",
     "age": "17",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/97/Saori_Title.ogg"
   },
   {
     "link": "/wiki/Saten_Ruiko",
@@ -1061,7 +1193,8 @@
     "name": "Saten Ruiko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/b/b0/Saten_Ruiko.png/40px-Saten_Ruiko.png",
     "age": "12",
-    "height": "160cm"
+    "height": "160cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/62/Saten_Ruiko_Title.ogg"
   },
   {
     "link": "/wiki/Saya",
@@ -1069,7 +1202,8 @@
     "name": "Saya",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/ce/Saya.png/40px-Saya.png",
     "age": "16",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cc/Saya_Title.ogg"
   },
   {
     "link": "/wiki/Saya_(Casual)",
@@ -1077,7 +1211,8 @@
     "name": "Saya (Casual)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e2/Saya_%28Casual%29.png/40px-Saya_%28Casual%29.png",
     "age": "16",
-    "height": "149cm"
+    "height": "149cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/93/Saya_%28Casual%29_Title.ogg"
   },
   {
     "link": "/wiki/Sena",
@@ -1085,7 +1220,8 @@
     "name": "Sena",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f4/Sena.png/40px-Sena.png",
     "age": "17",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/ff/Sena_Title.ogg"
   },
   {
     "link": "/wiki/Serika",
@@ -1093,7 +1229,8 @@
     "name": "Serika",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c8/Serika.png/40px-Serika.png",
     "age": "15",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a7/Serika_Title.ogg"
   },
   {
     "link": "/wiki/Serika_(New_Year)",
@@ -1101,7 +1238,8 @@
     "name": "Serika (New Year)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/61/Serika_%28New_Year%29.png/40px-Serika_%28New_Year%29.png",
     "age": "15",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/df/Serika_%28New_Year%29_Title.ogg"
   },
   {
     "link": "/wiki/Serina",
@@ -1109,7 +1247,8 @@
     "name": "Serina",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/41/Serina.png/40px-Serina.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/28/Serina_Title.ogg"
   },
   {
     "link": "/wiki/Serina_(Christmas)",
@@ -1117,7 +1256,8 @@
     "name": "Serina (Christmas)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/19/Serina_%28Christmas%29.png/40px-Serina_%28Christmas%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/b1/Serina_%28Christmas%29_Title.ogg"
   },
   {
     "link": "/wiki/Shigure",
@@ -1125,7 +1265,8 @@
     "name": "Shigure",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/da/Shigure.png/40px-Shigure.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/5/59/Shigure_Title.ogg"
   },
   {
     "link": "/wiki/Shigure_(Hot_Spring)",
@@ -1133,7 +1274,8 @@
     "name": "Shigure (Hot Spring)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/da/Shigure_%28Hot_Spring%29.png/40px-Shigure_%28Hot_Spring%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/f/fa/Shigure_%28Hot_Spring%29_Title.ogg"
   },
   {
     "link": "/wiki/Shimiko",
@@ -1141,7 +1283,8 @@
     "name": "Shimiko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f4/Shimiko.png/40px-Shimiko.png",
     "age": "15",
-    "height": "157cm"
+    "height": "157cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cc/Shimiko_Title.ogg"
   },
   {
     "link": "/wiki/Shiroko",
@@ -1149,7 +1292,8 @@
     "name": "Shiroko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/63/Shiroko.png/40px-Shiroko.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/4d/Shiroko_Title.ogg"
   },
   {
     "link": "/wiki/Shiroko_(Riding)",
@@ -1157,7 +1301,8 @@
     "name": "Shiroko (Riding)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a0/Shiroko_%28Riding%29.png/40px-Shiroko_%28Riding%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/8e/Shiroko_%28Riding%29_Title.ogg"
   },
   {
     "link": "/wiki/Shiroko_(Swimsuit)",
@@ -1165,7 +1310,8 @@
     "name": "Shiroko (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/4/4e/Shiroko_%28Swimsuit%29.png/40px-Shiroko_%28Swimsuit%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/2/21/Shiroko_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Shizuko",
@@ -1173,7 +1319,8 @@
     "name": "Shizuko",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/77/Shizuko.png/40px-Shizuko.png",
     "age": "16",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/0d/Shizuko_Title.ogg"
   },
   {
     "link": "/wiki/Shizuko_(Swimsuit)",
@@ -1181,7 +1328,8 @@
     "name": "Shizuko (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/f/f2/Shizuko_%28Swimsuit%29.png/40px-Shizuko_%28Swimsuit%29.png",
     "age": "16",
-    "height": "153cm"
+    "height": "153cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a9/Shizuko_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Shokuhou_Misaki",
@@ -1189,7 +1337,8 @@
     "name": "Shokuhou Misaki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/66/Shokuhou_Misaki.png/40px-Shokuhou_Misaki.png",
     "age": "14",
-    "height": "-"
+    "height": "-",
+    "voice": "https://static.miraheze.org/bluearchivewiki/0/0f/Shokuhou_Misaki_Title.ogg"
   },
   {
     "link": "/wiki/Shun",
@@ -1197,7 +1346,8 @@
     "name": "Shun",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/17/Shun.png/40px-Shun.png",
     "age": "Top secret",
-    "height": "174cm"
+    "height": "174cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/97/Shun_Title.ogg"
   },
   {
     "link": "/wiki/Shun_(Kid)",
@@ -1205,7 +1355,8 @@
     "name": "Shun (Kid)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/5/53/Shun_%28Kid%29.png/40px-Shun_%28Kid%29.png",
     "age": "Top secret",
-    "height": "Wasn't measured"
+    "height": "Wasn't measured",
+    "voice": "https://static.miraheze.org/bluearchivewiki/4/4d/Shun_%28Kid%29_Title.ogg"
   },
   {
     "link": "/wiki/Sumire",
@@ -1213,7 +1364,8 @@
     "name": "Sumire",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/d/d6/Sumire.png/40px-Sumire.png",
     "age": "16",
-    "height": "167cm"
+    "height": "167cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/a/a5/Sumire_Title.ogg"
   },
   {
     "link": "/wiki/Suzumi",
@@ -1221,7 +1373,8 @@
     "name": "Suzumi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/07/Suzumi.png/40px-Suzumi.png",
     "age": "16",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d1/Suzumi_Title.ogg"
   },
   {
     "link": "/wiki/Toki",
@@ -1229,7 +1382,8 @@
     "name": "Toki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e4/Toki.png/40px-Toki.png",
     "age": "16",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/d3/Toki_Title.ogg"
   },
   {
     "link": "/wiki/Toki_(Bunny_Girl)",
@@ -1237,7 +1391,8 @@
     "name": "Toki (Bunny Girl)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/8/83/Toki_%28Bunny_Girl%29.png/40px-Toki_%28Bunny_Girl%29.png",
     "age": "16",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/d/da/Toki_%28Bunny_Girl%29_Title.ogg"
   },
   {
     "link": "/wiki/Tomoe",
@@ -1245,7 +1400,8 @@
     "name": "Tomoe",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/0/0a/Tomoe.png/40px-Tomoe.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/99/Tomoe_Title.ogg"
   },
   {
     "link": "/wiki/Tsubaki",
@@ -1253,7 +1409,8 @@
     "name": "Tsubaki",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/6a/Tsubaki.png/40px-Tsubaki.png",
     "age": "16",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/74/Tsubaki_Title.ogg"
   },
   {
     "link": "/wiki/Tsukuyo",
@@ -1261,7 +1418,8 @@
     "name": "Tsukuyo",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/ce/Tsukuyo.png/40px-Tsukuyo.png",
     "age": "15",
-    "height": "180cm"
+    "height": "180cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/9/9c/Tsukuyo_Title.ogg"
   },
   {
     "link": "/wiki/Tsurugi",
@@ -1269,7 +1427,8 @@
     "name": "Tsurugi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c1/Tsurugi.png/40px-Tsurugi.png",
     "age": "17",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/64/Tsurugi_Title.ogg"
   },
   {
     "link": "/wiki/Tsurugi_(Swimsuit)",
@@ -1277,7 +1436,8 @@
     "name": "Tsurugi (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e6/Tsurugi_%28Swimsuit%29.png/40px-Tsurugi_%28Swimsuit%29.png",
     "age": "17",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/72/Tsurugi_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Ui",
@@ -1285,7 +1445,8 @@
     "name": "Ui",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/18/Ui.png/40px-Ui.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/b/b4/Ui_Title.ogg"
   },
   {
     "link": "/wiki/Ui_(Swimsuit)",
@@ -1293,7 +1454,8 @@
     "name": "Ui (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/60/Ui_%28Swimsuit%29.png/40px-Ui_%28Swimsuit%29.png",
     "age": "17",
-    "height": "165cm"
+    "height": "165cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/e/ec/Ui_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Utaha",
@@ -1301,7 +1463,8 @@
     "name": "Utaha",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/37/Utaha.png/40px-Utaha.png",
     "age": "17",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/8/83/Utaha_Title.ogg"
   },
   {
     "link": "/wiki/Utaha_(Cheerleader)",
@@ -1309,7 +1472,8 @@
     "name": "Utaha (Cheerleader)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/7b/Utaha_%28Cheerleader%29.png/40px-Utaha_%28Cheerleader%29.png",
     "age": "17",
-    "height": "162cm"
+    "height": "162cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/3d/Utaha_%28Cheerleader%29_Title.ogg"
   },
   {
     "link": "/wiki/Wakamo",
@@ -1317,7 +1481,8 @@
     "name": "Wakamo",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/a/a7/Wakamo.png/40px-Wakamo.png",
     "age": "18",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/6/6e/Wakamo_Title.ogg"
   },
   {
     "link": "/wiki/Wakamo_(Swimsuit)",
@@ -1325,7 +1490,8 @@
     "name": "Wakamo (Swimsuit)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/e/e2/Wakamo_%28Swimsuit%29.png/40px-Wakamo_%28Swimsuit%29.png",
     "age": "18",
-    "height": "161cm"
+    "height": "161cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/1f/Wakamo_%28Swimsuit%29_Title.ogg"
   },
   {
     "link": "/wiki/Yoshimi",
@@ -1333,7 +1499,8 @@
     "name": "Yoshimi",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/c/c2/Yoshimi.png/40px-Yoshimi.png",
     "age": "15",
-    "height": "146cm"
+    "height": "146cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/c/cd/Yoshimi_Title.ogg"
   },
   {
     "link": "/wiki/Yukari",
@@ -1341,7 +1508,8 @@
     "name": "Yukari",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/2/2b/Yukari.png/40px-Yukari.png",
     "age": "15",
-    "height": "155cm"
+    "height": "155cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/1b/Yukari_Title.ogg"
   },
   {
     "link": "/wiki/Yuuka",
@@ -1349,7 +1517,8 @@
     "name": "Yuuka",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/3/3e/Yuuka.png/40px-Yuuka.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/1d/Yuuka_Title.ogg"
   },
   {
     "link": "/wiki/Yuuka_(Sportswear)",
@@ -1357,7 +1526,8 @@
     "name": "Yuuka (Sportswear)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/6/60/Yuuka_%28Sportswear%29.png/40px-Yuuka_%28Sportswear%29.png",
     "age": "16",
-    "height": "156cm"
+    "height": "156cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/7/76/Yuuka_%28Sportswear%29_Title.ogg"
   },
   {
     "link": "/wiki/Yuzu",
@@ -1365,7 +1535,8 @@
     "name": "Yuzu",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/7/71/Yuzu.png/40px-Yuzu.png",
     "age": "16",
-    "height": "150cm"
+    "height": "150cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/3/33/Yuzu_Title.ogg"
   },
   {
     "link": "/wiki/Yuzu_(Maid)",
@@ -1373,6 +1544,7 @@
     "name": "Yuzu (Maid)",
     "icon": "https://static.miraheze.org/bluearchivewiki/thumb/1/17/Yuzu_%28Maid%29.png/40px-Yuzu_%28Maid%29.png",
     "age": "16",
-    "height": "150cm"
+    "height": "150cm",
+    "voice": "https://static.miraheze.org/bluearchivewiki/1/14/Yuzu_%28Maid%29_Title.ogg"
   }
 ]

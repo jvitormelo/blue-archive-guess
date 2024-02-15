@@ -10,14 +10,33 @@
   width: 40px;
   height: 45px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: all 0.3s ease-in-out;
 }
 
 .hexagon-border {
   width: 45px;
+  transition: all 0.3s ease-in-out;
   height: 50px;
   background: #a162a8;
   display: flex;
   align-items: center;
   justify-content: center;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon-border[data-voice-active="true"] {
+  background: #007bff;
+}
+
+.hexagon-border:hover {
+  background: #f7f7f7;
+  scale: 1.5;
+  cursor: pointer;
+}
+
+.hexagon-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
 }

@@ -67,7 +67,7 @@ function generateFirstLevel(): GuessuLevel {
 function generateGals(exclude: Gal[] = []) {
   const correctGal = getRandomGal(exclude);
 
-  const options: Gal[] = [];
+  const options: Gal[] = [correctGal];
 
   for (let i = 0; i < 4; i++) {
     options.push(getRandomGal([...exclude, ...options]));
@@ -75,7 +75,7 @@ function generateGals(exclude: Gal[] = []) {
 
   return {
     correctGal,
-    options: shuffle([correctGal, ...options]),
+    options: shuffle(options),
   };
 }
 

@@ -9,11 +9,11 @@ function Index() {
   return (
     <div className="flex gap-8 w-full justify-center min-h-lvh items-center">
       <Link to="/gals">
-        <Button>Guessu</Button>
+        <Button>Gals</Button>
       </Link>
 
       <Link to={"/guessu"}>
-        <Button>Gals</Button>
+        <Button>Guessu</Button>
       </Link>
     </div>
   );

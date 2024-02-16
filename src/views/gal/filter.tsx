@@ -16,7 +16,7 @@ export const GalsFilter = () => {
 
       <CardContent className="flex flex-col gap-4">
         <label className="flex gap-2 items-center">
-          Name
+          <span className="min-w-12">Name</span>
           <Input
             type="text"
             value={name}
@@ -24,7 +24,7 @@ export const GalsFilter = () => {
           />
         </label>
         <label className="flex gap-2 items-center">
-          Height
+          <span className="min-w-12">Height</span>
           <Input
             type="text"
             value={height}
@@ -33,7 +33,7 @@ export const GalsFilter = () => {
         </label>
 
         <label className="flex gap-2 items-center">
-          Age
+          <span className="min-w-12">Age</span>
           <Input
             type="text"
             value={age}

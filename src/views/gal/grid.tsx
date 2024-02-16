@@ -8,6 +8,8 @@ import { Gal, gals } from "@/data/gals";
 import { simpleOperatorFilter, splitOperatorAndValue } from "@/utils/filter";
 import { useGalsStore } from "@/views/gal/store";
 import { useMemo, useRef } from "react";
+import { Settings } from "lucide-react";
+import { Slider } from "@/components/ui/slider";
 
 export const GalsGrid = () => {
   const { setSelectedGal } = useGalsStore((s) => s.actions);
@@ -67,11 +69,26 @@ export const GalsGrid = () => {
 
   return (
     <div className="flex flex-col overflow-y-auto justify-center items-center">
-      <div className="pb-4">
+      <div className="pb-4 flex gap-2">
         <Button onClick={playAllSound}>BRUUUU ARCHIVU</Button>
         <Popover>
-          <PopoverTrigger>Open</PopoverTrigger>
-          <PopoverContent>Place content for the popover here.</PopoverContent>
+          <PopoverTrigger>
+            <Settings className="my-auto" />
+          </PopoverTrigger>
+          <PopoverContent>
+            <h2 className="mb-1">Sound delay</h2>
+            <Slider
+              className="mb-2"
+              value={[soundDelay]}
+              onValueChange={(e) => {
+                useGalsStore.setState({ config: { soundDelay: e[0] } });
+              }}
+              min={0}
+              max={1500}
+              step={50}
+            />
+            {soundDelay}ms
+          </PopoverContent>
         </Popover>
       </div>
       <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-auto items-center justify-center">

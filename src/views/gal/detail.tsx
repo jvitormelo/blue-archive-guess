@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGalsStore } from "@/views/gal/store";
 
 export const GalDetail = () => {
@@ -9,7 +9,17 @@ export const GalDetail = () => {
   return (
     <Card className="gal-details max-h-lvh">
       <CardHeader>
-        <h1>{gal.name}</h1>
+        <CardTitle>
+          <h1>{gal.name}</h1>
+        </CardTitle>
+        <img
+          key={gal.iconHighRes}
+          src={gal.iconHighRes}
+          height={300}
+          className="aspect-auto"
+          loading="lazy"
+          alt={gal.name}
+        />
       </CardHeader>
 
       <CardContent>

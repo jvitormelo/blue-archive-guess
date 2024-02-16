@@ -19,8 +19,8 @@ export const GalDetail = () => {
         <img
           key={gal.iconHighRes}
           src={gal.iconHighRes}
-          height={376}
-          className="aspect-auto min-h-[376px]"
+          height={366}
+          className="aspect-auto lg:h-[366px]"
           loading="lazy"
           alt={gal.name}
         />

@@ -1,22 +1,19 @@
-#root {
-  ::-webkit-scrollbar {
-    width: 8px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: #fff;
-    border-radius: 8px;
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #eee;
-    border-radius: 8px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
+::-webkit-scrollbar {
+  width: 8px;
 }
 
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #eee;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
 .hexagon {
   position: relative;
   width: 40px;

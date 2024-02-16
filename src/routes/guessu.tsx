@@ -69,7 +69,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
         </CardContent>
       </Card>
 
-      <div className="flex gap-4 flex-wrap justify-center">
+      <div className="flex gap-4 flex-wrap justify-center" key={level.level}>
         {level.options.map((gal) => (
           <Card
             onClick={() => setSelected(gal)}
@@ -79,7 +79,12 @@ function LevelView({ level }: { level: GuessuLevel }) {
           >
             <CardHeader className="text-center">
               <CardTitle>{gal.name}</CardTitle>
-              <img width={200} src={gal.iconHighRes} alt={gal.name} />
+              <img
+                className="h-[225px]"
+                width={200}
+                src={gal.iconHighRes}
+                alt={gal.name}
+              />
             </CardHeader>
           </Card>
         ))}

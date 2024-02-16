@@ -48,7 +48,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
           <CardTitle>Round: {level.level}</CardTitle>
         </CardHeader>
         <CardContent>
-          <audio src={level.correctGal.voice} controls className=""></audio>
+          <audio src={level.correctGal.voice} controls />
 
           <Button
             onClick={() => {
@@ -69,9 +69,10 @@ function LevelView({ level }: { level: GuessuLevel }) {
         </CardContent>
       </Card>
 
-      <div className="flex gap-4 flex-wrap justify-center" key={level.level}>
+      <div className="flex gap-4 flex-wrap justify-center">
         {level.options.map((gal) => (
           <Card
+            key={gal.link}
             onClick={() => setSelected(gal)}
             className={cn("cursor-pointer", {
               "border-green-900 bg-green-400": selected?.link === gal.link,

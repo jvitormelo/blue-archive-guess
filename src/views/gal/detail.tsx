@@ -1,4 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { useGalsStore } from "@/views/gal/store";
 
 export const GalDetail = () => {
@@ -7,16 +13,14 @@ export const GalDetail = () => {
   if (!gal) return <Card className="gal-details max-h-lvh" />;
 
   return (
-    <Card className="gal-details max-h-lvh">
-      <CardHeader>
-        <CardTitle>
-          <h1>{gal.name}</h1>
-        </CardTitle>
+    <Card key={gal.link} className="gal-details max-h-lvh animate-fade">
+      <CardHeader className="">
+        <CardTitle>{gal.name}</CardTitle>
         <img
           key={gal.iconHighRes}
           src={gal.iconHighRes}
-          height={300}
-          className="aspect-auto"
+          height={376}
+          className="aspect-auto min-h-[376px]"
           loading="lazy"
           alt={gal.name}
         />
@@ -26,6 +30,9 @@ export const GalDetail = () => {
         <p>Age: {gal.age}</p>
         <p>Height: {gal.height}</p>
       </CardContent>
+      <CardFooter>
+        <audio src={gal.voice} controls></audio>
+      </CardFooter>
     </Card>
   );
 };

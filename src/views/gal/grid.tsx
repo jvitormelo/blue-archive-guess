@@ -4,12 +4,12 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { Slider } from "@/components/ui/slider";
 import { Gal, gals } from "@/data/gals";
 import { simpleOperatorFilter, splitOperatorAndValue } from "@/utils/filter";
 import { useGalsStore } from "@/views/gal/store";
-import { useMemo, useRef, useState } from "react";
 import { Settings } from "lucide-react";
-import { Slider } from "@/components/ui/slider";
+import { useMemo, useRef, useState } from "react";
 
 export const GalsGrid = () => {
   const { setSelectedGal } = useGalsStore((s) => s.actions);
@@ -109,7 +109,7 @@ export const GalsGrid = () => {
           </PopoverContent>
         </Popover>
       </div>
-      <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-scroll  justify-center h-full w-full">
+      <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-scroll  justify-center w-full">
         {filteredGals.map((gal, i) => (
           <GalItem onSelect={() => setSelectedGal(gal)} key={i} gal={gal} />
         ))}

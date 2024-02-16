@@ -7,7 +7,7 @@ import {
 import { Gal, gals } from "@/data/gals";
 import { simpleOperatorFilter, splitOperatorAndValue } from "@/utils/filter";
 import { useGalsStore } from "@/views/gal/store";
-import { useMemo, useRef } from "react";
+import { useMemo, useRef, useState } from "react";
 import { Settings } from "lucide-react";
 import { Slider } from "@/components/ui/slider";
 
@@ -21,9 +21,11 @@ export const GalsGrid = () => {
 
   const { toggleVoiceActive } = useGalsStore((s) => s.actions);
 
+  const [intervals, setInterval] = useState<NodeJS.Timeout[]>([]);
+
   function playAllSound() {
-    filteredGals.forEach((gal, i) => {
-      setTimeout(() => {
+    const galsIntervals = filteredGals.map((gal, i) => {
+      const interval = setTimeout(() => {
         const audio = new Audio(gal.voice);
 
         audio.play();
@@ -34,8 +36,18 @@ export const GalsGrid = () => {
           toggleVoiceActive(gal.link);
         };
       }, i * soundDelay);
+      return interval;
     });
+
+    setInterval(galsIntervals);
   }
+
+  function stopAllSound() {
+    intervals.forEach(clearTimeout);
+    setInterval([]);
+  }
+
+  const isPlaying = intervals.length > 0;
 
   const activeFilter = useMemo(() => {
     const heightMatch = splitOperatorAndValue(height);
@@ -68,11 +80,16 @@ export const GalsGrid = () => {
   }, [activeFilter]);
 
   return (
-    <div className="flex flex-col overflow-y-auto justify-center items-center">
+    <div className="flex flex-col overflow-y-auto items-center">
       <div className="pb-4 flex gap-2">
-        <Button onClick={playAllSound}>BRUUUU ARCHIVU</Button>
+        <Button onClick={isPlaying ? stopAllSound : playAllSound}>
+          {isPlaying ? "😭😭😭" : "BRUUUU ARCHIVU"}
+        </Button>
         <Popover>
-          <PopoverTrigger>
+          <PopoverTrigger
+            disabled={isPlaying}
+            className="disabled:opacity-40 disabled:cursor-not-allowed"
+          >
             <Settings className="my-auto" />
           </PopoverTrigger>
           <PopoverContent>
@@ -91,7 +108,7 @@ export const GalsGrid = () => {
           </PopoverContent>
         </Popover>
       </div>
-      <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-auto items-center justify-center">
+      <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-scroll  justify-center h-full w-full">
         {filteredGals.map((gal, i) => (
           <GalItem onSelect={() => setSelectedGal(gal)} key={i} gal={gal} />
         ))}

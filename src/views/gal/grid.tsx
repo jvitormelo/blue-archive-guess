@@ -66,15 +66,15 @@ export const GalsGrid = () => {
   }, [activeFilter]);
 
   return (
-    <div>
-      <div>
+    <div className="flex flex-col overflow-y-auto justify-center items-center">
+      <div className="pb-4">
         <Button onClick={playAllSound}>BRUUUU ARCHIVU</Button>
         <Popover>
           <PopoverTrigger>Open</PopoverTrigger>
           <PopoverContent>Place content for the popover here.</PopoverContent>
         </Popover>
       </div>
-      <div className="flex flex-wrap gap-4 pt-4 overflow-auto">
+      <div className="flex flex-wrap gap-4 overflow-x-hidden  overflow-y-auto items-center justify-center">
         {filteredGals.map((gal, i) => (
           <GalItem onSelect={() => setSelectedGal(gal)} key={i} gal={gal} />
         ))}

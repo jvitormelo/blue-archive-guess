@@ -3,6 +3,23 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 8px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
 
 .hexagon {

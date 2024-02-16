@@ -1,5 +1,6 @@
 import { Gal } from "@/data/gals";
 import { create } from "zustand";
+import { createJSONStorage, persist } from "zustand/middleware";
 
 type GalsFilter = {
   name: string;
@@ -34,38 +35,54 @@ type GalStore = {
   };
 };
 
-export const useGalsStore = create<GalStore>((set) => ({
-  galState: new Map(),
-  selectedGal: null,
-  config: {
-    soundDelay: 500,
-  },
-  filters: initialFilters,
-  actions: {
-    toggleVoiceActive: (name) => {
-      set((state) => {
-        const current = state.galState.get(name);
-        if (!current) {
-          state.galState.set(name, { isVoiceActive: true });
-        } else {
-          state.galState.set(name, { isVoiceActive: !current.isVoiceActive });
-        }
+export const useGalsStore = create(
+  persist<GalStore>(
+    (set) => ({
+      galState: new Map(),
+      selectedGal: null,
+      config: {
+        soundDelay: 500,
+      },
+      filters: initialFilters,
+      actions: {
+        toggleVoiceActive: (name) => {
+          set((state) => {
+            const current = state.galState.get(name);
+            if (!current) {
+              state.galState.set(name, { isVoiceActive: true });
+            } else {
+              state.galState.set(name, {
+                isVoiceActive: !current.isVoiceActive,
+              });
+            }
 
-        return {
-          galState: new Map(state.galState),
-        };
-      });
-    },
-    setSelectedGal: (gal) => {
-      set({ selectedGal: gal });
-    },
-    setFilter: (filter) => {
-      set((state) => ({
-        filters: {
-          ...state.filters,
-          ...filter,
+            return {
+              galState: new Map(state.galState),
+            };
+          });
         },
-      }));
-    },
-  },
-}));
+        setSelectedGal: (gal) => {
+          set({ selectedGal: gal });
+        },
+        setFilter: (filter) => {
+          set((state) => ({
+            filters: {
+              ...state.filters,
+              ...filter,
+            },
+          }));
+        },
+      },
+    }),
+    {
+      name: "gals-store",
+      storage: createJSONStorage(() => localStorage),
+      partialize(state) {
+        return {
+          filters: state.filters,
+          config: state.config,
+        } as GalStore;
+      },
+    }
+  )
+);

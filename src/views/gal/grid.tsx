@@ -35,6 +35,7 @@ export const GalsGrid = () => {
         audio.onended = () => {
           toggleVoiceActive(gal.link);
         };
+        setSelectedGal(gal);
       }, i * soundDelay);
       return interval;
     });

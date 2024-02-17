@@ -175,7 +175,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
         {level.options.map((gal) => (
           <button onClick={() => setSelected(gal)} key={gal.link}>
             <Card
-              className={cn("h-full", {
+              className={cn("h-full fade-in-5", {
                 "border-green-900 bg-green-400": selected?.link === gal.link,
               })}
             >

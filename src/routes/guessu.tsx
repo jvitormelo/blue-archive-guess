@@ -1,10 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
 import { Gal } from "@/data/gals";
 import { cn } from "@/lib/utils";
 import { GuessuLevel, useGuessuStore } from "@/views/guessu/store";
 import { createFileRoute } from "@tanstack/react-router";
-import { useReducer } from "react";
+import { useReducer, useRef } from "react";
+import VictorySound from "@/assets/victory.m4a";
 
 export const Route = createFileRoute("/guessu")({
   component: Guessu,
@@ -31,6 +39,7 @@ function Guessu() {
 function LevelView({ level }: { level: GuessuLevel }) {
   const actions = useGuessuStore((s) => s.actions);
 
+  const victorySound = useRef(new Audio(VictorySound));
   const [selected, setSelected] = useReducer(
     (state: Gal | null, gal: Gal | null) => {
       if (gal?.link === state?.link) {
@@ -41,26 +50,118 @@ function LevelView({ level }: { level: GuessuLevel }) {
     null
   );
 
+  const [isVictoryOpen, toggleVicotryOpen] = useReducer(
+    (state: boolean) => !state,
+    false
+  );
+
+  const [isDefeatOpen, toggleDefeatOpen] = useReducer(
+    (state: boolean) => !state,
+    false
+  );
+
+  const handleGuess = () => {
+    const result = actions.guess(selected!);
+    setSelected(null);
+    if (result) {
+      victorySound.current.volume = 0.2;
+      victorySound.current.currentTime = 1.5;
+      victorySound.current.play();
+      toggleVicotryOpen();
+    } else {
+      toggleDefeatOpen();
+    }
+  };
+
   return (
     <div className="flex flex-col lg:flex-row-reverse">
+      <Dialog open={isVictoryOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="text-center text-3xl text-yellow-400 font-bold">
+              Victory!
+            </DialogTitle>
+          </DialogHeader>
+
+          <DialogDescription className="flex flex-col items-center">
+            <span>
+              {" "}
+              You have successfully guessed
+              <strong> {level.correctGal.name}</strong>
+            </span>
+            <img
+              src={level.correctGal.iconHighRes}
+              alt={level.correctGal.name}
+              width={200}
+            />
+
+            <span>
+              VA: <strong>{level.correctGal.voiceActor}</strong>
+            </span>
+            <Button
+              onClick={() => {
+                toggleVicotryOpen();
+                actions.nextLevel();
+              }}
+              className="mt-4"
+            >
+              Continue
+            </Button>
+          </DialogDescription>
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={isDefeatOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle className="text-center text-3xl text-red-400 font-bold">
+              Defeat!
+            </DialogTitle>
+          </DialogHeader>
+          <DialogDescription className="flex flex-col items-center">
+            <span>
+              {" "}
+              The correct answer was
+              <strong> {level.correctGal.name}</strong>
+            </span>
+            <img
+              src={level.correctGal.iconHighRes}
+              alt={level.correctGal.name}
+              width={200}
+            />
+
+            <span>
+              VA: <strong>{level.correctGal.voiceActor}</strong>
+            </span>
+
+            <div className="flex flex-col mt-4">
+              <span className="text-lg">
+                Your Score was:{" "}
+                <strong className="text-xl text-primary">{level.level}</strong>
+              </span>
+              <Button
+                onClick={() => {
+                  toggleDefeatOpen();
+                  actions.createLevel();
+                }}
+              >
+                Try Again
+              </Button>
+            </div>
+          </DialogDescription>
+        </DialogContent>
+      </Dialog>
+
       <Card className="h-fit sticky top-5">
         <CardHeader>
-          <CardTitle>Round: {level.level}</CardTitle>
+          <CardTitle>Score: {level.level}</CardTitle>
         </CardHeader>
+
         <CardContent>
           <audio src={level.correctGal.voice} controls />
 
           <Button
-            onClick={() => {
-              const result = actions.guess(selected!);
-
-              if (result) {
-                setSelected(null);
-              } else {
-                alert("Try again");
-                window.location.reload();
-              }
-            }}
+            onClick={handleGuess}
             className="mt-4 w-full"
             disabled={selected === null}
           >

@@ -9,7 +9,9 @@ type Store = {
 
   actions: {
     createLevel: () => void;
+
     guess: (gal: Gal) => boolean;
+    nextLevel: () => void;
   };
 };
 
@@ -24,15 +26,9 @@ export const useGuessuStore = create<Store>((set, get) => ({
         levelHistory: [],
       });
     },
-    guess: (galGuess) => {
-      const currentLevel = get().currentLevel!;
-      const isCorrect = currentLevel.correctGal.link === galGuess.link;
-
-      if (!isCorrect) {
-        return false;
-      }
-
+    nextLevel: () => {
       set((state) => {
+        const currentLevel = state.currentLevel!;
         const newHistory = [...state.levelHistory, currentLevel];
 
         const { correctGal, options } = generateGals(
@@ -48,6 +44,15 @@ export const useGuessuStore = create<Store>((set, get) => ({
           levelHistory: newHistory,
         };
       });
+    },
+
+    guess: (galGuess) => {
+      const currentLevel = get().currentLevel!;
+      const isCorrect = currentLevel.correctGal.link === galGuess.link;
+
+      if (!isCorrect) {
+        return false;
+      }
 
       return true;
     },
@@ -58,7 +63,7 @@ function generateFirstLevel(): GuessuLevel {
   const { correctGal, options } = generateGals([]);
 
   return {
-    level: 1,
+    level: 0,
     correctGal,
     options,
   };

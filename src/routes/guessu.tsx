@@ -171,7 +171,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
         </CardContent>
       </Card>
 
-      <div className="grid grid-cols-2 lg:flex gap-4 flex-wrap justify-center pt-4 lg:pt-0">
+      <div className="grid grid-cols-2 lg:flex gap-3 lg:gap-4 flex-wrap justify-center pt-4 lg:pt-0">
         {level.options.map((gal) => (
           <button onClick={() => setSelected(gal)} key={gal.link}>
             <Card
@@ -181,8 +181,9 @@ function LevelView({ level }: { level: GuessuLevel }) {
             >
               <CardHeader className="text-center h-full">
                 <CardTitle>{gal.name}</CardTitle>
+
                 <img
-                  className="lg:h-[225px]"
+                  className="lg:h-[225px] "
                   width={200}
                   src={gal.iconHighRes}
                   alt={gal.name}

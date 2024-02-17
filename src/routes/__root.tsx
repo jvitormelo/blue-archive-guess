@@ -4,7 +4,7 @@ import { createRootRoute, Outlet } from "@tanstack/react-router";
 export const Route = createRootRoute({
   component: () => (
     <>
-      <main className="max-w-7xl mx-auto p-5">
+      <main className="max-w-7xl mx-auto lg:p-5 p-3">
         <Outlet />
       </main>
       {/* <TanStackRouterDevtools /> */}

@@ -13,6 +13,7 @@ import { GuessuLevel, useGuessuStore } from "@/views/guessu/store";
 import { createFileRoute } from "@tanstack/react-router";
 import { useReducer, useRef } from "react";
 import VictorySound from "@/assets/victory.m4a";
+import DefeatSound from "@/assets/defeat.m4a";
 
 export const Route = createFileRoute("/guessu")({
   component: Guessu,
@@ -32,6 +33,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
   const actions = useGuessuStore((s) => s.actions);
 
   const victorySound = useRef(new Audio(VictorySound));
+  const defeatSound = useRef(new Audio(DefeatSound));
   const [selected, setSelected] = useReducer(
     (state: Gal | null, gal: Gal | null) => {
       if (gal?.link === state?.link) {
@@ -42,7 +44,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
     null
   );
 
-  const [isVictoryOpen, toggleVicotryOpen] = useReducer(
+  const [isVictoryOpen, toggleVictoryOpen] = useReducer(
     (state: boolean) => !state,
     false
   );
@@ -57,10 +59,16 @@ function LevelView({ level }: { level: GuessuLevel }) {
     setSelected(null);
     if (result) {
       victorySound.current.volume = 0.2;
-      victorySound.current.currentTime = 1.5;
+      victorySound.current.currentTime = 0;
       victorySound.current.play();
-      toggleVicotryOpen();
+      toggleVictoryOpen();
     } else {
+      setTimeout(() => {
+        defeatSound.current.volume = 0.2;
+        defeatSound.current.currentTime = 0;
+        defeatSound.current.play();
+      }, 500);
+
       toggleDefeatOpen();
     }
   };
@@ -93,7 +101,8 @@ function LevelView({ level }: { level: GuessuLevel }) {
           </DialogDescription>
           <Button
             onClick={() => {
-              toggleVicotryOpen();
+              victorySound.current.pause();
+              toggleVictoryOpen();
               actions.nextLevel();
             }}
             className="mt-4 w-fit mx-auto"
@@ -133,6 +142,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
             <Button
               className="w-fit mx-auto"
               onClick={() => {
+                defeatSound.current.pause();
                 toggleDefeatOpen();
                 actions.createLevel();
               }}

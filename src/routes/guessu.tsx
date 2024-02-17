@@ -21,19 +21,11 @@ export const Route = createFileRoute("/guessu")({
 function Guessu() {
   const { currentLevel, actions } = useGuessuStore();
 
-  function handleStart() {
+  if (!currentLevel) {
     actions.createLevel();
   }
 
-  return (
-    <div>
-      {currentLevel ? (
-        <LevelView level={currentLevel} />
-      ) : (
-        <Button onClick={handleStart}>Start</Button>
-      )}
-    </div>
-  );
+  return <div>{currentLevel && <LevelView level={currentLevel} />}</div>;
 }
 
 function LevelView({ level }: { level: GuessuLevel }) {
@@ -137,7 +129,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
             <div className="flex flex-col mt-4">
               <span className="text-lg">
                 Your Score was:{" "}
-                <strong className="text-xl text-primary">{level.level}</strong>
+                <strong className="text-xl text-primary">{level.score}</strong>
               </span>
               <Button
                 onClick={() => {
@@ -154,7 +146,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
 
       <Card className="h-fit sticky top-5">
         <CardHeader>
-          <CardTitle>Score: {level.level}</CardTitle>
+          <CardTitle>Score: {level.score}</CardTitle>
         </CardHeader>
 
         <CardContent>

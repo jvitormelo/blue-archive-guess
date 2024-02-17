@@ -1,7 +1,7 @@
 import { Gal, gals } from "@/data/gals";
 import { create } from "zustand";
 
-export type GuessuLevel = { level: number; correctGal: Gal; options: Gal[] };
+export type GuessuLevel = { score: number; correctGal: Gal; options: Gal[] };
 
 type Store = {
   currentLevel: GuessuLevel | null;
@@ -32,12 +32,12 @@ export const useGuessuStore = create<Store>((set, get) => ({
         const newHistory = [...state.levelHistory, currentLevel];
 
         const { correctGal, options } = generateGals(
-          newHistory.flatMap((level) => level.options)
+          newHistory.flatMap((level) => level.correctGal)
         );
 
         return {
           currentLevel: {
-            level: currentLevel.level + 1,
+            score: currentLevel.score + 1,
             correctGal,
             options,
           },
@@ -63,7 +63,7 @@ function generateFirstLevel(): GuessuLevel {
   const { correctGal, options } = generateGals([]);
 
   return {
-    level: 0,
+    score: 0,
     correctGal,
     options,
   };

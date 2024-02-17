@@ -11,7 +11,7 @@ import { Gal } from "@/data/gals";
 import { cn } from "@/lib/utils";
 import { GuessuLevel, useGuessuStore } from "@/views/guessu/store";
 import { createFileRoute } from "@tanstack/react-router";
-import { useReducer, useRef } from "react";
+import { useEffect, useReducer, useRef } from "react";
 import VictorySound from "@/assets/victory.m4a";
 import DefeatSound from "@/assets/defeat.m4a";
 
@@ -44,6 +44,8 @@ function LevelView({ level }: { level: GuessuLevel }) {
     null
   );
 
+  const currentGalRef = useRef<HTMLAudioElement>(null);
+
   const [isVictoryOpen, toggleVictoryOpen] = useReducer(
     (state: boolean) => !state,
     false
@@ -72,6 +74,14 @@ function LevelView({ level }: { level: GuessuLevel }) {
       toggleDefeatOpen();
     }
   };
+
+  useEffect(() => {
+    const interval = setTimeout(() => {
+      currentGalRef.current?.play();
+    }, 1000);
+
+    return () => clearTimeout(interval);
+  }, [level.correctGal.voice]);
 
   return (
     <div className="flex flex-col lg:flex-row-reverse">
@@ -159,7 +169,7 @@ function LevelView({ level }: { level: GuessuLevel }) {
         </CardHeader>
 
         <CardContent>
-          <audio src={level.correctGal.voice} controls />
+          <audio ref={currentGalRef} src={level.correctGal.voice} controls />
 
           <Button
             onClick={handleGuess}

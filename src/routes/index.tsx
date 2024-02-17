@@ -3,6 +3,11 @@ import { Link, createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  beforeLoad: (opt) => {
+    opt.navigate({
+      to: "/guessu",
+    });
+  },
 });
 
 function Index() {

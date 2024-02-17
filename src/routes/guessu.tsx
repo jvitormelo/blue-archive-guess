@@ -90,16 +90,16 @@ function LevelView({ level }: { level: GuessuLevel }) {
             <span>
               VA: <strong>{level.correctGal.voiceActor}</strong>
             </span>
-            <Button
-              onClick={() => {
-                toggleVicotryOpen();
-                actions.nextLevel();
-              }}
-              className="mt-4"
-            >
-              Continue
-            </Button>
           </DialogDescription>
+          <Button
+            onClick={() => {
+              toggleVicotryOpen();
+              actions.nextLevel();
+            }}
+            className="mt-4 w-fit mx-auto"
+          >
+            Continue
+          </Button>
         </DialogContent>
       </Dialog>
 
@@ -112,7 +112,6 @@ function LevelView({ level }: { level: GuessuLevel }) {
           </DialogHeader>
           <DialogDescription className="flex flex-col items-center">
             <span>
-              {" "}
               The correct answer was
               <strong> {level.correctGal.name}</strong>
             </span>
@@ -125,22 +124,22 @@ function LevelView({ level }: { level: GuessuLevel }) {
             <span>
               VA: <strong>{level.correctGal.voiceActor}</strong>
             </span>
-
-            <div className="flex flex-col mt-4">
-              <span className="text-lg">
-                Your Score was:{" "}
-                <strong className="text-xl text-primary">{level.score}</strong>
-              </span>
-              <Button
-                onClick={() => {
-                  toggleDefeatOpen();
-                  actions.createLevel();
-                }}
-              >
-                Try Again
-              </Button>
-            </div>
           </DialogDescription>
+          <div className="flex flex-col mt-4 text-center">
+            <span className="text-lg mb-1">
+              Your Score was:{" "}
+              <strong className="text-xl text-primary">{level.score}</strong>
+            </span>
+            <Button
+              className="w-fit mx-auto"
+              onClick={() => {
+                toggleDefeatOpen();
+                actions.createLevel();
+              }}
+            >
+              Try Again
+            </Button>
+          </div>
         </DialogContent>
       </Dialog>
 
@@ -162,25 +161,25 @@ function LevelView({ level }: { level: GuessuLevel }) {
         </CardContent>
       </Card>
 
-      <div className="flex gap-4 flex-wrap justify-center">
+      <div className="grid grid-cols-2 lg:flex gap-4 flex-wrap justify-center pt-4 lg:pt-0">
         {level.options.map((gal) => (
-          <Card
-            key={gal.link}
-            onClick={() => setSelected(gal)}
-            className={cn("cursor-pointer", {
-              "border-green-900 bg-green-400": selected?.link === gal.link,
-            })}
-          >
-            <CardHeader className="text-center">
-              <CardTitle>{gal.name}</CardTitle>
-              <img
-                className="h-[225px]"
-                width={200}
-                src={gal.iconHighRes}
-                alt={gal.name}
-              />
-            </CardHeader>
-          </Card>
+          <button onClick={() => setSelected(gal)} key={gal.link}>
+            <Card
+              className={cn("h-full", {
+                "border-green-900 bg-green-400": selected?.link === gal.link,
+              })}
+            >
+              <CardHeader className="text-center h-full">
+                <CardTitle>{gal.name}</CardTitle>
+                <img
+                  className="lg:h-[225px]"
+                  width={200}
+                  src={gal.iconHighRes}
+                  alt={gal.name}
+                />
+              </CardHeader>
+            </Card>
+          </button>
         ))}
       </div>
     </div>
